@@ -5,7 +5,7 @@ makeblastdb \
     -title B_subtilis_PY79_CP006881.1 \
     -out B_subtilis_PY79_CP006881.1
 
-awk -F"\t" 'BEGIN {OFS="\t"} NR > 1 {if ($5 == 1) {strand="+"} if ($5 == -1) {strand="-"}; print "AL009126.3",$3-1,$4,$1,$1,strand}' B_subtilis_168_RNA.tsv > B_subtilis_168_RNA.bed
+awk -F"\t" 'BEGIN {OFS="\t"} NR > 1 {if ($5 == 1) {strand="+"} if ($5 == -1) {strand="-"}; print "AL009126.3",$3-1,$4,$2,$1,strand}' B_subtilis_168_RNA.tsv > B_subtilis_168_RNA.bed
 bedtools getfasta \
     -fi B_subtilis_168_AL009126.3.fa \
     -fo B_subtilis_168_ncRNA.fa \
@@ -26,7 +26,7 @@ awk -F"\t" 'BEGIN {OFS="\t"} {if ($9 < $10) {strand="+"; start=$9; end=$10} if (
 
 # join to get Nicolas et al.'s classifications
 sort -k 4 B_subtilis_PY79_ncRNA.bed > B_subtilis_PY79_ncRNA_keysort.bed
-sort -k 3 B_subtilis_168_RNA_class_lut.tsv > B_subtilis_168_RNA_class_lut_keysort.tsv
+tail -n +2 B_subtilis_168_RNA_class_lut.tsv | sort -k 3 - > B_subtilis_168_RNA_class_lut_keysort.tsv
 
 join -1 4 -2 3 \
     B_subtilis_PY79_ncRNA_keysort.bed \

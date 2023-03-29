@@ -50,3 +50,8 @@ bowtie2-build PY79_CC_P2918_masked_consensus_rRNA.fa PY79_CC_P2918_masked
 ./make_B_sub_consensus_rRNA_gff.sh
 ```
 
+```
+cat B_subtilis_PY79_ncRNA_with_class.gff B_subtilis_PY79_consensus_rRNA.gff > tmp.gff
+bedtools sort -i tmp.gff > B_subtilis_PY79_consensus_rRNA_and_ncRNA_sorted.gff
+rm tmp.gff
+```
