@@ -1,4 +1,4 @@
-# Analysis of HBD enrichment
+# Creating custom reference genome and annotations
 
 The following steps can be taken to build the custom annotations and reference genome used
 in our analysis of RNA:DNA hybrid enrichments in Bacillus subtilis.
