@@ -1,0 +1,10 @@
+CP006881.1	Genbank	rRNA	14692	14807	.	+	.	ID=rna-U712_20855;Parent=gene-U712_20855;gbkey=rRNA;locus_tag=U712_20855;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	35237	35352	.	+	.	ID=rna-U712_20885;Parent=gene-U712_20885;gbkey=rRNA;locus_tag=U712_20885;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	95235	95350	.	+	.	ID=rna-U712_20910;Parent=gene-U712_20910;gbkey=rRNA;locus_tag=U712_20910;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	101090	101205	.	+	.	ID=rna-U712_20970;Parent=gene-U712_20970;gbkey=rRNA;locus_tag=U712_20970;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	165591	165706	.	+	.	ID=rna-U712_20985;Parent=gene-U712_20985;gbkey=rRNA;locus_tag=U712_20985;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	171200	171315	.	+	.	ID=rna-U712_21030;Parent=gene-U712_21030;gbkey=rRNA;locus_tag=U712_21030;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	176202	176317	.	+	.	ID=rna-U712_21045;Parent=gene-U712_21045;gbkey=rRNA;locus_tag=U712_21045;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	603172	603287	.	+	.	ID=rna-U712_21130;Parent=gene-U712_21130;gbkey=rRNA;locus_tag=U712_21130;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	914491	914606	.	+	.	ID=rna-U712_21155;Parent=gene-U712_21155;gbkey=rRNA;locus_tag=U712_21155;product=5S ribosomal RNA
+CP006881.1	Genbank	rRNA	2991675	2991790	.	-	.	ID=rna-U712_21370;Parent=gene-U712_21370;gbkey=rRNA;locus_tag=U712_21370;product=5S ribosomal RNA
