@@ -1,3 +1,0 @@
-B_subtilis_PY79_consensus_16S_rRNA	Jeremy	rRNA	1	1555	.	+	.	ID=rna-consensus_16S_rRNA;Parent=gene-consensus_16S_rRNA;gbkey=rRNA;locus_tag=consensus_16S_rRNA;product=16S ribosomal RNA
-B_subtilis_PY79_consensus_23S_rRNA	Jeremy	rRNA	1	2928	.	+	.	ID=rna-consensus_23S_rRNA;Parent=gene-consensus_23S_rRNA;gbkey=rRNA;locus_tag=consensus_23S_rRNA;product=23S ribosomal RNA
-B_subtilis_PY79_consensus_5S_rRNA	Jeremy	rRNA	1	116	.	+	.	ID=rna-consensus_5S_rRNA;Parent=gene-consensus_5S_rRNA;gbkey=rRNA;locus_tag=consensus_5S_rRNA;product=5S ribosomal RNA
